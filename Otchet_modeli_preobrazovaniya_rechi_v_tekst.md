@@ -114,7 +114,7 @@ $$
 CER = \frac{\text{подстановки} + \text{вставки} + \text{удаления (на уровне символов)}}{\text{общее число символов в эталонном тексте}} 
 $$
 
-### GigaAM
+### (GigaAM)[https://github.com/salute-developers/GigaAM]
 
 GigaAM (Giga Acoustic Model) - семейство акустических моделей для обработки звучащей речи на русском языке. 
 
@@ -147,17 +147,17 @@ GigaAM энкодер был дообучен для задачи распозн
 | **GigaAM-CTC-v2**  | 242M       | 2.5         | 4.3            | 14.1            | 21.1                 | 10.7               | 2.1   | 3.1   | 5.5                 |
 | **GigaAM-RNNT-v2** | 243M       | **<span style="color:green">2.2</span>**         | **<span style="color:green">3.9</span>**            | **<span style="color:green">13.3</span>**            | **<span style="color:green">20.0</span>**                | **<span style="color:green">10.2</span>**               | **<span style="color:green">1.8</span>**   | **<span style="color:green">2.7</span>**   | **<span style="color:green">5.5</span>**  
 
-## Whisper 
+## (Whisper)[https://github.com/openai/whisper]
 
 <!-- There are six model sizes, four with English-only versions, offering speed and accuracy tradeoffs.
 Below are the names of the available models and their approximate memory requirements and inference speed relative to the large model.
 The relative speeds below are measured by transcribing English speech on a A100, and the real-world speed may vary significantly depending on many factors including the language, the speaking speed, and the available hardware. -->
 
-Существует шесть размеров моделей, четыре из которых имеют версии только на английском языке, предлагая компромиссы между скоростью и точностью. 
+[Существует шесть размеров моделей, четыре из которых имеют версии только на английском языке, предлагая компромиссы между скоростью и точностью. 
 
 Ниже приведены названия доступных моделей, их приблизительные требования к памяти и скорость вывода относительно большой модели. 
 
-Относительные скорости, указанные ниже, измеряются путем транскрибирования английской речи на A100, а реальная скорость может значительно отличаться в зависимости от многих факторов, включая язык, скорость речи и доступное оборудование.
+Относительные скорости, указанные ниже, измеряются путем транскрибирования английской речи на A100, а реальная скорость может значительно отличаться в зависимости от многих факторов, включая язык, скорость речи и доступное оборудование.](https://github.com/openai/whisper)
 
 |  Size  | Parameters | English-only model | Multilingual model | Required VRAM | Relative speed |
 |:------:|:----------:|:------------------:|:------------------:|:-------------:|:--------------:|
